@@ -1100,3 +1100,48 @@ section .container {
 .col-md-4.mt-4.mt-md-0.icon-box img {
   background: white !important;
 }
+
+    /* General styling */
+    #experience {
+      margin-top: 50px;
+    }
+  
+    .experience-item {
+      border: 1px solid #ccc;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      margin-bottom: 20px; /* Add spacing between items */
+    }
+  
+    .experience-item h3,
+    .experience-item h4 {
+      margin-bottom: 10px;
+    }
+  
+    .experience-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .experience-list li {
+      margin-bottom: 10px;
+    }
+  
+    /* Additional styling for visual appeal */
+    .section-title {
+      text-align: center; /* Center the title */
+      margin-bottom: 30px; /* Add spacing before items */
+    }
+  
+    .experience-item h4 {
+      font-weight: bold;
+      color: #333;
+    }
+  
+    .experience-list li {
+      font-size: 16px;
+      line-height: 1.5;
+      list-style: disc;
+    }
