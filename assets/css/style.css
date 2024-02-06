@@ -1096,3 +1096,7 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+.col-md-4.mt-4.mt-md-0.icon-box img {
+  background: white !important;
+}
